@@ -52,7 +52,8 @@ class _HomePageState extends State<HomePage> {
                 return Card(
                   child: ListTile(
                     title: Text(
-                        "${apiData[index].breed!} ${apiData[index].origin!}"),
+                        "${apiData[index].breed!} ${apiData[index].origin!}",
+                        style: CustomTextstyle.Mbold),
                     subtitle: Text(
                         "${apiData[index].coat!} ${apiData[index].pattern!}"),
                   ),
